@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.logo{
+    width: fit-content;
+}
+
+.LT{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 10px
+}
+
+.tools{
+    width: fit-content;
+    padding: 10px;
+}
+
+.tools img{
+    margin: 10px;
+    width: 23px;
+}
+
+a{
+    text-decoration: none;
+    color: #868689;
+}
+
+.nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
